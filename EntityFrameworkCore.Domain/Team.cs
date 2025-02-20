@@ -10,7 +10,6 @@ public class Team : BaseDomainModel
     public Coach Coach { get; set; }
     public int CoachId { get; set; }
 
-
     public List<Match> HomeMatchs { get; set; } = new List<Match>() { };
     public List<Match> AwayMatchs { get; set; } = new List<Match>() { };
 

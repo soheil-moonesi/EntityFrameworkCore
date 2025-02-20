@@ -28,7 +28,7 @@ namespace EntityFrameworkCore.Data.Configurations
                 new Team
                 {
                     Id = 1,
-                    Name = "Tivoli Gardens F.C.",
+                    Name = "Tivoli Gardens F.C",
                     CreatedDate = new DateTime(2021, 02, 01),
                     LeagueId= 1,
                     CoachId = 1
@@ -36,7 +36,7 @@ namespace EntityFrameworkCore.Data.Configurations
                 new Team
                 {
                     Id = 2,
-                    Name = "Waterhouse F.C.",
+                    Name = "Waterhouse F.C",
                     CreatedDate = new DateTime(2021, 02, 01),
                     LeagueId = 1,
                     CoachId = 2
@@ -44,10 +44,11 @@ namespace EntityFrameworkCore.Data.Configurations
                 new Team
                 {
                     Id = 3,
-                    Name = "Humble Lions F.C.",
+                    Name = "Arsenal",
                     CreatedDate = new DateTime(2021, 02, 01),
-                    LeagueId = 1,
-                    CoachId = 3
+                    LeagueId = 3,
+                    CoachId = 3,
+                    
                 }
             );
 
